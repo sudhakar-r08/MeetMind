@@ -18,8 +18,9 @@ import PyPDF2
 import docx
 from io import BytesIO
 import base64
-__import__("pysqlite3")
-sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+
+# __import__("pysqlite3")
+# sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 # Set page config with better styling
 st.set_page_config(
     page_title="MeetMind - AI Meeting Assistant",

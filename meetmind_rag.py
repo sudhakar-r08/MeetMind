@@ -10,6 +10,8 @@ import time
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+# __import__("pysqlite3")
+# sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
 import chromadb
 from chromadb.config import Settings
 import uuid
@@ -19,8 +21,7 @@ import docx
 from io import BytesIO
 import base64
 
-# __import__("pysqlite3")
-# sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+
 # Set page config with better styling
 st.set_page_config(
     page_title="MeetMind - AI Meeting Assistant",

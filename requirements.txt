@@ -8,7 +8,6 @@ torchaudio>=2.0.0
 ffmpeg-python
 pysqlite3-binary
 speech_recognition  # If using this
-pydub              # If using this
 chromadb>=0.4.0
 sentence-transformers>=2.2.0
 scikit-learn>=1.3.0

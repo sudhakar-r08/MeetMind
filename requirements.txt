@@ -5,6 +5,7 @@ torch>=2.0.0
 torchaudio>=2.0.0
 
 # RAG & Vector DB Dependencies
+ffmpeg-python
 pysqlite3-binary
 chromadb>=0.4.0
 sentence-transformers>=2.2.0
